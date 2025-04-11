@@ -42,6 +42,8 @@ body {
 :root {
     --yellow-fae: #FFDA30;
     --gray-fae: #424033;
+    --light-gray: #575549;
+    --dark-gray: #27261D;
 }
 
 .title {
@@ -155,9 +157,35 @@ body {
 
 .image-mobile {
     position: absolute;
-    top: -16px;
-    left: 50%;
+    top: 754px;
+    left: 71%;
     transform: translateX(-50%);
     z-index: 10;
-    max-width: 1000px;
+    max-width: 500px;
 }
+
+.map-button{
+    background-color: var(--light-gray);
+    border-color: var(--yellow-fae);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.info {
+    background-color: var(--light-gray);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        background-color: var(--light-gray);
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
+
