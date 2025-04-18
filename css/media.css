@@ -18,31 +18,22 @@
     margin-top: 0;
   }
 
-  .info-text {
-    margin-top: 20px;
-    width: fit-content;
-  }
-
   .our-adress {
     text-align: -webkit-right;
     text-align-last: left;
   }
 
-  .info-right {
+  .info {
     background-color: var(--light-gray);
     margin: 20px;
     border-radius: 5px;
     padding: 20px 30px;
     height: fit-content;
     align-items: normal;
-  }
 
-  .info-left {
-    background-color: var(--light-gray);
-    margin: 20px;
-    border-radius: 5px;
-    padding: 20px 30px;
-    height: fit-content;
-    align-items: normal;
+    .info-text {
+      margin-top: 20px;
+      width: fit-content;
+    }
   }
 }
