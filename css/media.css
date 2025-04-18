@@ -1,0 +1,39 @@
+@media(max-width: 1280px) {
+  .image-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    white-space: nowrap;
+    margin-bottom: auto;
+    margin-top: 0;
+  }
+  
+  .content-left-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .our-adress {
+    text-align: -webkit-right;
+    text-align-last: left;
+  }
+
+  .info {
+    background-color: var(--light-gray);
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px 30px;
+    height: fit-content;
+    align-items: normal;
+
+    .info-text {
+      margin-top: 20px;
+      width: fit-content;
+    }
+  }
+}
