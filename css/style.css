@@ -1,0 +1,170 @@
+@import url('./tokens.css');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-60%);
+  z-index: 10;
+  max-width: 350px;
+}
+
+.left-side {
+  background-color: var(--gray-fae);
+  color: white;
+}
+
+.right-side {
+  background-color: var(--yellow-fae);
+  padding: 50px 12px;
+  color: var(--gray-fae);
+}
+
+/* titulo */
+.title {
+  font-size: 24px;
+  white-space: nowrap;
+  margin-bottom: auto;
+  margin-top: -70px;
+  
+  .title-line-below {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .title-fae {
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: -40px;
+    color: var(--yellow-fae)
+  }
+  
+  .title-right-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -22px;
+    line-height: 25px;
+    margin-left: -10px;
+  }
+}
+/* titulo */
+
+.content-left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 20px;
+  align-self: flex-start;
+  box-shadow: 0px 0.5px 0px white;
+  width: 100%;
+  
+  .yellow-texts {
+    color: var(--yellow-fae);
+  }
+}
+
+.links {
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  .box-course {
+    position: relative;
+    width: 100%;
+    padding: 12px 40px;
+    text-align: center;
+    box-shadow: 0px 0.5px 0px white;
+  
+    .arrow {
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--yellow-fae);
+    }
+  }
+
+  .simple-text {
+    font-size: 12px;
+    text-align: right !important;
+  }
+}
+
+.logo {
+  width: 200px;
+}
+
+.button {
+  background-color: var(--gray-fae);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-gray {
+  color: var(--gray-fae)
+}
+
+/* informações */
+.info {
+  background-color: var(--light-gray);
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 450px;
+  padding: 20px;
+  height: 104px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .info-title {
+    max-width: 100px;
+    margin-right: 20px;
+    line-height: 20px;
+  }
+
+  .contact-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 24px;
+      height: auto;
+    }
+  }
+  
+  .map-button {
+    background-color: var(--light-gray);
+    border-color: var(--yellow-fae);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    margin-top: 16px;
+    width: 100px;
+  }
+}
+/* informações */
+
+.footer {
+  color: white;
+  background-color: var(--dark-gray);
+  font-size: 24px;
+  height: 40px;
+}
